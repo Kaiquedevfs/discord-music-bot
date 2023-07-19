@@ -4,7 +4,7 @@ from discord.ext import commands
 import os
 
 bot = commands.Bot(command_prefix='!', intents = discord.Intents.all())
-token = "MTEzMDI1Nzk4OTIyNDM3NDI4Mg.GBmH1N.WxwVE33UIyno1M91SfAFwzoh_onB42bU0-6LWM"
+token = ""
 with open("token.txt") as file:
     token = file.read()
 
